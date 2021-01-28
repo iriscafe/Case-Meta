@@ -1,9 +1,9 @@
 const v = ['{', '{', '[', '[', '(', '(', ')', ')', ']', ']', '}', '}'];
 
-var resposta = '';
-var j = v.length - 1;
+let resposta = '';
+let j = v.length - 1;
 
-for (i = 0; i < v.length / 2; i++) {
+for (let i = 0; i < v.length / 2; i++) {
     if (v[i] == '{') {
         corresp = '}';
         if (v[j] == corresp) {
