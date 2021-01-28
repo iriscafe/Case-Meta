@@ -1,10 +1,6 @@
 const v = ['{', '{', '[', '[', '(', '(', ')', ')', ']', ']', '}', '}'];
 
-var obj = ['{', '}', '[', ']', '(', ')'];
-
-
 var resposta = '';
-var corresp = '';
 var j = v.length - 1;
 
 for (i = 0; i < v.length / 2; i++) {
